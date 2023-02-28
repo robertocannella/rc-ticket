@@ -10,3 +10,11 @@ import './styles/app.css';
 
 // start the Stimulus application
 import './bootstrap';
+
+// Custom Imports
+import './src/navBar';
+
+
+
+import NavBar from "./src/navBar";
+const navBar = new NavBar();
