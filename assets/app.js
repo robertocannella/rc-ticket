@@ -12,9 +12,10 @@ import './styles/app.css';
 import './bootstrap';
 
 // Custom Imports
-import './src/navBar';
+import './src/userMenu';
 
 
-
-import NavBar from "./src/navBar";
-const navBar = new NavBar();
+import WYSIWYGTool from "./src/wysiwygInput";
+import UserMenu from "./src/userMenu";
+const navBar = new UserMenu();
+const wysisygTool = new WYSIWYGTool();

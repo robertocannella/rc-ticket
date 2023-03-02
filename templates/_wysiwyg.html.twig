@@ -1,0 +1,56 @@
+<style>
+    .main-content{
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.19);
+    }
+
+    .text-editor-header .btn{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        margin-right: 5px;
+    }
+
+
+</style>
+<div class="main-content absolute -translate-x-2/4 -translate-y-2/4 top-2/4 left-2/4">
+    <div class="text-editor-header p-1 bg-gray-400 dark:bg-os-300 rounded-t">
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white active:bg-os-300 mr-1 cursor-pointer" data-element="bold">
+            <i class="fa fa-bold"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="italic">
+            <i class="fa fa-italic"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="underline">
+            <i class="fa fa-underline"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="insertunorderedlist">
+            <i class="fa fa-list-ul"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="insertorderedlist">
+            <i class="fa fa-list-ol"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="createLink">
+            <i class="fa fa-link"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="justifyleft">
+            <i class="fa fa-align-left"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="justifycenter">
+            <i class="fa fa-align-center"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="justifyright">
+            <i class="fa fa-align-right"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="justifyfull">
+            <i class="fa fa-align-justify"></i>
+        </button>
+        <button type="button" class="wysiwyg-btn btn button dark:text-slate-900 hover:text-white mr-1 cursor-pointer" data-element="insertimage">
+            <i class="fa fa-image"></i>
+        </button>
+    </div>
+
+    <div class="wysiwyg-content content outline-none border-gray-400 dark:border-os-300 rounded-b  h-52 p-5 w-500" contenteditable="true">
+        Write your details here.
+    </div>
+
+</div>
